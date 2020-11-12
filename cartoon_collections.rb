@@ -16,9 +16,9 @@ def long_planeteer_calls(array)# code an argument here
   # Your code here
   x = array.find { |i| i.length > 4 }
   if x != nil
-    return false
+    return true
   else
-    true
+    false
   end
 end
 
